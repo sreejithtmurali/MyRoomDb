@@ -20,7 +20,7 @@ public class MainData implements Serializable {
         this.ph = ph;
     }
 
-    @ColumnInfo(name = "phone") private String ph;
+    @ColumnInfo(name = "phone1") private String ph;
 
     public int getID() {
         return ID;
